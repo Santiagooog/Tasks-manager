@@ -1,0 +1,32 @@
+li{
+  width: 90%;
+  display: flex;
+  list-style: none;
+  border: solid 1px black;
+  background-color: rgba(53, 53, 53, 0.848);
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+p{
+  color: rgba(240, 248, 255, 0.734);
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.completed{
+  background-color: rgba(74, 235, 74, 0.89);
+}
+.completed-field{
+  text-decoration:dotted ;
+  text-decoration: line-through;
+}
+
+button{
+  box-sizing: border-box;
+  width: 50px;
+  font-size: 30px;
+}
+.eliminar{
+  color: rgba(255, 255, 255, 0.722);
+  background-color: rgba(186, 28, 28, 0.859);
+}

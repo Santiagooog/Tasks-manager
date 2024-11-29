@@ -1,0 +1,12 @@
+@keyframes rotar{
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
+svg{
+  max-width: 50%;
+  max-height: 200px;
+  animation: rotar 2s linear ;
+}

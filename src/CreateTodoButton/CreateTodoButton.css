@@ -1,0 +1,20 @@
+@keyframes rotar{
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
+.btn-add{
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer; 
+}
+
+.btn-add:hover{
+  background-color: gainsboro;
+  animation: rotar 2s linear infinite;
+}

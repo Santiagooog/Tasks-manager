@@ -1,0 +1,64 @@
+/* Cuadro de la ventana modal */
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  position: absolute;
+  top: 30%;
+  background-color: rgb(68, 67, 67);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  max-width: 100%;
+  min-height: 300px;
+
+}
+
+.exit{
+  position: absolute;
+  z-index: 100;
+  top: -30px;
+  left: 250px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.exit:hover{
+  background-color: rgba(238, 67, 67, 0.665);
+  cursor: pointer;
+  border: solid 1px;
+  outline: 1px;
+}
+
+.modal button{
+  justify-self: center;
+  margin-top: 30px;
+  min-width: 100px;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.modal button:hover{
+  cursor: pointer;
+  background-color: rgba(238, 67, 67, 0.665);
+  border: solid 1px;
+  outline: 1px;
+}
+.modal h1{
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(34, 33, 33);
+}
+.modal div{
+  gap: 20px;
+  font-size:20px;
+  font-family: monospace;
+  color: rgba(0, 0, 0, 0.607);
+}
+.modal input{
+  height: 30px;
+  border-radius: 10px;
+}
+
+
