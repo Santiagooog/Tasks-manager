@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/home/santiagooog/Documentos/curso-react-intro/build/static/css/main.94901e45.css",
+    "main.js": "/home/santiagooog/Documentos/curso-react-intro/build/static/js/main.98e0b2a9.js",
+    "index.html": "/home/santiagooog/Documentos/curso-react-intro/build/index.html",
+    "main.94901e45.css.map": "/home/santiagooog/Documentos/curso-react-intro/build/static/css/main.94901e45.css.map",
+    "main.98e0b2a9.js.map": "/home/santiagooog/Documentos/curso-react-intro/build/static/js/main.98e0b2a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94901e45.css",
+    "static/js/main.98e0b2a9.js"
+  ]
+}
