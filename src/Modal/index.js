@@ -1,7 +1,6 @@
 import './Modal.css'
 export function Modal({setOpen, opened, setOpened, addTodo, inputTodo, setInputTodo}) {
   return(
-    <>
     <div className="modal"
     style={
       {display:opened}
@@ -41,6 +40,6 @@ export function Modal({setOpen, opened, setOpened, addTodo, inputTodo, setInputT
         >Crear</button>
       
     </div>
-    </>
+    
   )
 }

@@ -15,15 +15,20 @@ p{
 }
 .completed{
   background-color: rgba(74, 235, 74, 0.89);
+  margin-left: 0.5rem;
 }
 .completed-field{
+  margin-left: 0.5rem;
   text-decoration:dotted ;
   text-decoration: line-through;
 }
 
 button{
-  box-sizing: border-box;
-  width: 50px;
+  margin-left: 0.5rem;
+  background-color: green;
+  border-radius: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
   font-size: 30px;
 }
 .eliminar{
